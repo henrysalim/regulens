@@ -1,0 +1,17 @@
+version: "3.8"
+services:
+  postgres:
+    image: postgres:15
+    container_name: regulens-postgres
+    environment:
+      POSTGRES_USER: regulens_admin
+      POSTGRES_PASSWORD: regulens123
+      POSTGRES_DB: regulens
+    ports:
+      - "5433:5432"
+
+  redis:
+    image: redis:7-alpine
+    container_name: regulens-redis
+    ports:
+      - "6380:6379"

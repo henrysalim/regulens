@@ -1,0 +1,27 @@
+# Dependencies
+node_modules/
+web/node_modules/
+web/.next/
+web/out/
+web/build/
+
+# Python virtual environment (backend)
+backend/regulens/
+workers/regulens/
+backend/__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+.venv/
+venv/
+ENV/
+
+# Project specific local storage and configuration
+shared/uploads/
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+*.pem

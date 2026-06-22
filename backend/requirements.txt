@@ -1,0 +1,15 @@
+fastapi==0.115.5
+uvicorn[standard]==0.32.1
+sqlalchemy[asyncio]==2.0.36
+asyncpg==0.30.0
+psycopg2-binary==2.9.10
+redis==5.2.0
+python-multipart==0.0.12
+python-dotenv==1.0.1
+pydantic==2.10.3
+pdfplumber==0.11.4
+pypdfium2==4.30.0
+pytesseract==0.3.13
+Pillow==11.0.0
+beautifulsoup4==4.12.3
+ollama==0.4.4
